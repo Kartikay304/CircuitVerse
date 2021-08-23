@@ -163,6 +163,6 @@ gem "invisible_captcha", "~> 1.1"
 
 gem "newrelic_rpm", "~> 6.13"
 
-gem "oj", "~> 3.12"
+gem "oj", "~> 3.13"
 
 gem "hairtrigger", "~> 0.2.24"
