@@ -413,3 +413,12 @@
   padding: 10px;
 }
 //user profile ends
+
+.modal-dialog {
+  max-width: fit-content;
+  top: 15%;
+}
+
+.error-message {
+  display: none;
+}
