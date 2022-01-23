@@ -57,7 +57,7 @@
       </div>
       <% else %>
         <li class="nav-item px-1">
-          <a class="nav-link navbar-item navbar-text <%= request.path == '/users/sign_in' ? 'active' : '' %>" href="/users/sign_in"><%= t("login") %></a>
+          <a class="login-trigger nav-link navbar-item navbar-text" href="#" data-target="#login" data-toggle="modal">Login</a>
         </li>
       <% end %>
     </ul>
