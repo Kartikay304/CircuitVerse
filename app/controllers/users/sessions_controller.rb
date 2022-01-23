@@ -2,6 +2,7 @@
 
 class Users::SessionsController < Devise::SessionsController
   prepend_before_action :check_captcha, only: [:create]
+  respond_to :html, :js
 
   # before_action :configure_sign_in_params, only: [:create]
 
